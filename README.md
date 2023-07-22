@@ -6,6 +6,7 @@ Natural Language Inference on Farstail dataset using hugging face transformers
 
 ## Models
 **The First Approach**
+
 Using [ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased) as a Embedding Layer for Feed Forward Neural Network
 ### Results
 |    Train Acc.   |   Train loss.   |   Test Acc.   |
@@ -13,6 +14,7 @@ Using [ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased)
 |      0.813      |      0.175      |      0.83     |
 
 **The Second Approach**
+
 Fine-tuning [ParsBERT](https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased) model
 ### Results
 |    Train Acc.   |   Train loss.   |   Test Acc.   |
